@@ -29,19 +29,19 @@
     <div class="container">
       <div class="row mt-5">
 
-        <div class="col-md-8 mb-3 pt-2 pe-5">
+        <div class="col-md-8 mb-3 pt-2 px-4">
           <h1>Say hallo to Dasbot!</h1>
           <p class="lead mb-5"><strong>Its mission is to help you learn German articles.</strong></p>
           <p>It will send you a short quiz in Telegram every day. By using it you will learn the genders of 2000 most frequently used German nouns.</p>
           <p>You can change the preferred daily quiz time and length. To unsubscribe from the quiz, turn it off in the settings or just block the bot.</p>
-          <p>If you notice a bug, or have an improvement suggestion, please send me a <a href="https://t.me/wetterkrank" class="link-secondary"><i class="fab fa-telegram-plane"></i> message</a> or an <a class="link-secondary" href="mailto:wetterkrank@gmail.com">e-mail</a>.</p>
+          <p>If you have noticed a bug, or would like to suggest an improvement, please send me a <a href="https://t.me/wetterkrank" class="link-secondary"><i class="fab fa-telegram-plane"></i> message</a> or an <a class="link-secondary" href="mailto:wetterkrank@gmail.com">e-mail</a>.</p>
           <a class="mx-auto telegram text-white btn btn-info fs-3 my-5" href="https://t.me/derdiedas_quizbot" role="button">
             <i class="fab fa-telegram"></i> Get it here
           </a>
         </div>
 
-        <div class="col-md-4 mb-3 pt-2">
-          <img src="img/screenshot2.jpg" class="rounded mw-100 d-block screenshot" alt="...">
+        <div class="col-md-4 mb-3 pt-2 px-4">
+          <img src="img/screenshot.jpg" class="rounded mw-100 d-block screenshot" alt="...">
         </div>
 
       </div>
@@ -51,7 +51,7 @@
   <footer class="footer mt-auto py-3 bg-light">
     <div class="container">
       <span class="fs-3">
-        <a class="link-secondary" href="https://github.com/wetterkrank/dasbot"><i class="fab fa-github"></i></a>&nbsp
+        <a class="link-secondary" href="https://github.com/wetterkrank/dasbot"><i class="fab fa-github"></i></a>&nbsp;
         <a class="link-secondary" href="https://www.linkedin.com/in/antsiferov/"><i class="fab fa-linkedin"></i></a>
       </span>
     </div>
@@ -61,12 +61,16 @@
   <!-- Scripts -->
   <!-- <script src="js/main.js"></script> -->
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LW9L1X7J7C"></script>
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-LW9L1X7J7C');
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
 </body>
 
 </html>
