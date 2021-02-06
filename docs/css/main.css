@@ -1,0 +1,17 @@
+/* Custom styles below */
+
+.screenshot {
+    max-height: 80vh;
+}
+
+.lead {
+    color: #45A8E8;
+}
+
+.telegram {
+    background-color: #45A8E8;
+}
+
+p {
+    font-size: large;
+}
