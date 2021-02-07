@@ -4,6 +4,11 @@
     max-height: 80vh;
 }
 
+svg#bot-icon {
+    height: 6em;
+    width: auto;
+}
+
 .lead {
     color: #45A8E8;
 }
